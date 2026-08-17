@@ -1,0 +1,6 @@
+00_Inbox/*.pdf
+00_Inbox/.*.md
+.obsidian/workspace.json
+.obsidian/cache/
+__pycache__/
+*.pyc
