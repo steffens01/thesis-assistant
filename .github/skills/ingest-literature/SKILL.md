@@ -16,3 +16,4 @@ When the user provides a PDF file name in `00_Inbox/`:
    - **Key Findings & Methodology**: Bullet points of empirical or theoretical contributions.
    - **Connections & Wikilinks**: Connect ideas using `[[Wikilinks]]`. Prioritize the "EXISTING VAULT CONCEPTS" listed in the extraction file before creating new concepts.
 4. If a major new concept is introduced that does not exist in `02_Concepts/`, create a brief atomic note for it in `02_Concepts/<Concept_Name>.md`.
+5. **Update Global Index:** Run `python tools/update_index.py` to refresh `INDEX.md` with the new note and its summary.
